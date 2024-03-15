@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>ToDo List</title>
+</head>
+
+<body>
+    <!-- <img class="main_img" src="pexels-ylanite-koppens-796602.jpg" alt=""> -->
+    
+    <div class="main">
+        
+        <div class="heading">
+
+            <h1 id="title">ToDo List</h1>
+        </div>
+
+        <div class="entry">
+
+            <form action="" id="form">
+                <label for="task">Entry: <input type="text" id="task" name="task" placeholder="Enter task here" ></label>
+                
+                <input type="submit" id="submit"></input>
+                
+            </form>
+
+        </div>
+        <hr>
+
+        <div id="tasks" >
+            <ul id="list">
+            </ul>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+<script type="module" src="index.js"></script>
+
+</html>

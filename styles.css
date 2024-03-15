@@ -1,0 +1,85 @@
+
+/*************************  Tag Selector *******************/
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    background-image: url("pexels-ylanite-koppens-796602.jpg") ;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+form{
+    opacity: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: black;
+    
+}
+input, button, li, label{
+    background-color:#F8F4EC ;
+    border: 0;
+    font-size: 1.5rem;
+    color: purple;
+    padding: 5px 4rem 5px 1rem;
+    
+}
+
+
+li {
+    color:black;
+}
+
+ul{
+    text-align: center;
+    list-style :none;
+    padding: 50px auto;
+}
+
+
+
+/*************************  Class Selector *******************/
+
+.main{
+    width:80%;
+    margin-left: 10%;
+    background: #F8F4EC;
+    opacity: 85%;
+}
+
+
+.heading{
+    text-align: center;
+    
+}
+
+.item p{
+    display: inline-block;
+}
+
+.item button{
+    display: inline-block;
+}
+
+.task{
+    text-align: left;
+    width:45%;
+    margin-left: 10%;
+}
+
+
+.delete{
+    color: red;
+    text-align: center;
+    width: 45%;    
+}
+
+
+
+/*************************  ID Selector *******************/
+
+#title{
+    font-size: 4.5rem;
+    color: red;
+    font-weight: 550;
+}
