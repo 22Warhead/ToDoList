@@ -36,7 +36,10 @@ ul{
     padding: 50px auto;
 }
 
-
+hr{
+    padding: 0;
+    margin : 0;
+}
 
 /*************************  Class Selector *******************/
 
@@ -63,7 +66,7 @@ ul{
 
 .task{
     text-align: left;
-    width:45%;
+    width:40%;
     margin-left: 10%;
 }
 
@@ -71,9 +74,16 @@ ul{
 .delete{
     color: red;
     text-align: center;
-    width: 45%;    
+    width: 40%;    
 }
 
+.completed{
+    color:lime;
+}
+
+.remaining{
+    color: crimson;
+}
 
 
 /*************************  ID Selector *******************/
@@ -82,4 +92,12 @@ ul{
     font-size: 4.5rem;
     color: red;
     font-weight: 550;
+}
+
+#footerData{
+    padding: 1rem 0rem 1rem 4rem;
+    margin: auto;
+    font-size: 1.2rem;
+    color: blue;
+
 }
