@@ -84,12 +84,14 @@ hr{
     color: crimson;
 }
 
+.toggleButton{
+    margin-left:10%;
+}
+
 
 /*************************  ID Selector *******************/
 
-#toggleButton{
-    margin-left:10%;
-}
+
 
 #title{
     font-size: 4.5rem;

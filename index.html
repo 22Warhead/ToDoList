@@ -9,17 +9,16 @@
 </head>
 
 <body>
-    <!-- <img class="main_img" src="pexels-ylanite-koppens-796602.jpg" alt=""> -->
     
+    <!-- To add seperation between the body and area in whilc we will add our list we create a division -->
     <div class="main">
         
         <div class="heading">
-
             <h1 id="title">ToDo List</h1>
         </div>
 
         <div class="entry">
-
+             <!--Form  responsibe for adding items in the list -->
             <form action="" id="form">
                 <label for="task">Entry: <input type="text" id="task" name="task" placeholder="Enter task here" ></label>
                 
@@ -29,12 +28,14 @@
 
         </div>
         <hr>
+        <!-- Create clear seperation between list and the Form-->
 
         <div id="tasks" >
             <ul id="list">
             </ul>
         </div>
         <hr>
+        <!-- Create clear seperation between footer and the list-->
 
         <footer id="footer">
             <p id="footerData"></p>
@@ -45,6 +46,7 @@
 
 
 </body>
+<!-- Adding our javascript file -->
 <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
 <script type="module" src="index.js"></script>
 
