@@ -67,7 +67,6 @@ hr{
 .task{
     text-align: left;
     width:40%;
-    margin-left: 10%;
 }
 
 
@@ -87,6 +86,10 @@ hr{
 
 
 /*************************  ID Selector *******************/
+
+#toggleButton{
+    margin-left:10%;
+}
 
 #title{
     font-size: 4.5rem;
